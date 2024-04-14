@@ -1,0 +1,79 @@
+/* styles.css */
+body {
+    font-family: 'Comic Sans MS', cursive; /* Cute handwriting/cursive font */
+    font-size: 18px; /* Increase font size */
+    margin: 0;
+    padding: 0;
+    background-color: #f10477; /* Background color as hot pink */
+    color: #ffe6f2; /* Font color */
+    text-align: center; /* Center align all text */
+}
+
+h1, h2 {
+    color: rgb(12, 68, 78); /* Heading color */
+    text-align: center; /* Center align headings */
+}
+
+a {
+    color: rgb(134, 18, 150);
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.image-container {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    background-color: #ffe6f2;
+    
+    padding: 20px; 
+    margin-bottom: 20px; 
+}
+
+figure {
+    margin-right: 20px; 
+    text-align: center;    
+    
+}
+
+figcaption {
+    color: #f10477; 
+    margin-top: 10px; 
+}
+
+/* style.css */
+
+/* Existing styles */
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #f10477; /* Border color */
+    margin-top: 20px; /* Add some space between the table and the content above */
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px; /* Increase padding for better spacing */
+    text-align: left;
+    border: 2px solid #f10477; /* Border color */
+}
+
+.styled-table th {
+    background-color: #ffe6f2; /* Background color for header cells */
+    color: #f10477; /* Text color for header cells */
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Background color for even rows */
+    color:#f10477;
+}
+
+.styled-table tbody tr:nth-child(odd) {
+    background-color: #fff; /* Background color for odd rows */
+    color:#f10477;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Home Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1><strong>Hello Lovelies!</strong></h1>
@@ -41,26 +41,47 @@
             </li>
         </ul>
     </p>
-    <img src="image1.jpg" alt="Description of Image 1">
-    <img src="image2.jpg" alt="Description of Image 2">
-    
-    <h2>Table Example</h2>
-    <table>
-        <tr>
-            <th>Header 1</th>
-            <th>Header 2</th>
-            <th>Header 3</th>
-        </tr>
-        <tr>
-            <td>Data 1</td>
-            <td>Data 2</td>
-            <td>Data 3</td>
-        </tr>
-        <tr>
-            <td>Data 4</td>
-            <td>Data 5</td>
-            <td>Data 6</td>
-        </tr>
+    <div class="image-container">
+        <figure>
+            <img src="Charlotte.jpg" alt="Charlotte.">
+            <figcaption>My Axolotl Charlotte, She's 2 years old.</figcaption>
+        </figure>
+        
+        <figure>
+            <img src="Amelia.JPG" alt="Amelia" height="300" width="200">
+            <figcaption>My Forever Puppy Amelia, She's 2 years old.</figcaption>
+        </figure>
+    </div>
+
+    <h2>Would I risk it to pet them?</h2>
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Animal</th>
+                <th>Are they dangerous?</th>
+                <th>Would that stop me from petting them?</th>
+            </tr>
+        </thead>
+        <tbody> 
+            <tr>
+                <td>Bear Cub</td>
+                <td>Yes</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Tiger Cub</td>
+                <td>Yes</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Sloth Pup</td>
+                <td>Yes</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+        </tbody>
     </table>
 </body>
 </html>
