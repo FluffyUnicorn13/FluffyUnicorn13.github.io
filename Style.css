@@ -1,17 +1,17 @@
-/* styles.css */
+
 body {
-    font-family: 'Comic Sans MS', cursive; /* Cute handwriting/cursive font */
-    font-size: 18px; /* Increase font size */
+    font-family: 'Comic Sans MS', cursive; 
+    font-size: 18px;
     margin: 0;
     padding: 0;
-    background-color: #f10477; /* Background color as hot pink */
-    color: #ffe6f2; /* Font color */
-    text-align: center; /* Center align all text */
+    background-color: #f10477; 
+    color: #ffe6f2;
+    text-align: center;
 }
 
 h1, h2 {
-    color: rgb(12, 68, 78); /* Heading color */
-    text-align: center; /* Center align headings */
+    color: rgb(12, 68, 78);
+    text-align: center;
 }
 
 a {
@@ -53,27 +53,27 @@ figcaption {
 .styled-table {
     width: 100%;
     border-collapse: collapse;
-    border: 2px solid #f10477; /* Border color */
-    margin-top: 20px; /* Add some space between the table and the content above */
+    border: 2px solid #f10477;
+    margin-top: 20px; 
 }
 
 .styled-table th, .styled-table td {
-    padding: 12px; /* Increase padding for better spacing */
+    padding: 12px;
     text-align: left;
-    border: 2px solid #f10477; /* Border color */
+    border: 2px solid #f10477;
 }
 
 .styled-table th {
-    background-color: #ffe6f2; /* Background color for header cells */
-    color: #f10477; /* Text color for header cells */
+    background-color: #ffe6f2;
+    color: #f10477;
 }
 
 .styled-table tbody tr:nth-child(even) {
-    background-color: #f9f9f9; /* Background color for even rows */
+    background-color: #f9f9f9; 
     color:#f10477;
 }
 
 .styled-table tbody tr:nth-child(odd) {
-    background-color: #fff; /* Background color for odd rows */
+    background-color: #fff; 
     color:#f10477;
 }
